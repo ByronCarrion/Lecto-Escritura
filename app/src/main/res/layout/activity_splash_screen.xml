@@ -9,21 +9,17 @@
     android:orientation="horizontal"
     tools:context=".SplashScreen">
 
+
     <ImageView
         android:id="@+id/SplashScreen"
-        android:layout_width="500dp"
-        android:layout_height="200dp"
-        android:layout_marginTop="80dp"
+        android:layout_width="334dp"
+        android:layout_height="462dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="68dp"
         android:contentDescription="Logo"
-        android:src="@drawable/logo"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.173"
+        android:src="@drawable/logosplashscreen"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        tools:translationX="80dp"
-        tools:translationY="10dp" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
