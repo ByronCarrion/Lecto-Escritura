@@ -5,18 +5,19 @@
     android:id="@+id/relativeLayout2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
     android:background="@color/background"
+    android:orientation="horizontal"
     tools:context=".SplashScreen">
 
     <ImageView
         android:id="@+id/SplashScreen"
         android:layout_width="334dp"
         android:layout_height="462dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="68dp"
         android:contentDescription="@string/logo"
         android:src="@drawable/logosplashscreen"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -24,11 +25,11 @@
         android:id="@+id/textView"
         android:layout_width="331dp"
         android:layout_height="38dp"
-        android:text="@string/mensaje"
-        android:gravity="center"
-        android:textStyle="bold"
-        android:textColor="@color/BackGroundScreen"
         android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:text="@string/mensaje"
+        android:textColor="@color/BackGroundScreen"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
