@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lectura.lectura1">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="267dp"
+        android:layout_height="45dp"
+        android:text="De Oral A Lectura"
+        android:textSize="20dp"
+        android:textColor="@color/BackGroundScreen"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView4"
+        android:layout_width="409dp"
+        android:layout_height="684dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ora1" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Al ingresar a la educación preescolar, hay niños que hablan mucho; algunos de los más pequeños, o aquellos que provienen de ambientes con escasas oportunidades para conversar, se dan a entender de manera básica y hay quienes tienen dificultades para pronunciar algunas palabras o enunciar ideas completas.
+
+Ante esto, es preciso que  en  el jardín de niños se promueva de manera sistemática e intencionada el desarrollo del lenguaje (oral y escrito), porque es una herramienta indispensable del pensamiento, el aprendizaje y la socialización." />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Conociendo los procesos lectoescritores estaremos en mejores condiciones para comprender los trastornos que se producen en el curso de su adquisición y prevenir su aparición. Por ello es importante conocer la relación entre lenguaje oral y escrito.
+
+El lenguaje oral es parte de un complejo sistema comunicativo que se desarrolla entre los humanos. Este proceso comienza ya desde las primeras semanas del  bebé recién nacido al mirar rostros, sonrisas y otros gestos y al escuchar las interpretaciones lingüísticas dadas por el adulto.
+
+La adquisición correcta del lenguaje requiere en el niño/a el desarrollo de habilidades auditivas, cognitivas y visuales. Estas habilidades le permitirán aprender con mayor facilidad el proceso de la lectoescritura, ya que este conlleva la correcta discriminación y percepción del sonido de las vocales, consonantes, posteriormente el sonido de las sílabas, palabras y la formación de oraciones, integrando así dicho proceso la discriminación y percepción visual de las letras, sílabas, palabras y oraciones." />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ora2" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="La escritura creativa"
+                android:textSize="20dp"
+                android:textColor="@color/BackGroundScreen"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=". Podemos hacerlo en casa o, si existe un interés visible por su parte, estudiar otras opciones fuera de la escuela. Su práctica mejorará los tiempos de aprendizaje de conceptos, su vocabulario y el conocimiento estructural del idioma. Por regla general, el gusto por la lectura irá asociado a todo lo anterior, convirtiéndose en el acercamiento progresivo de géneros literarios, temas y autores. Esta asociación también la podemos extender a la educación en valores, mostrando situaciones y realidades que nuestros hijos e hijas deben conocer y sacando partido a algunos de los ejercicios y actividades de escritura creativa para niños que encontrarás a continuación.
+
+En un grupo o taller donde se practique la escritura creativa con niños, quienes lo organizan plantearán una enorme variedad de ejercicios de desarrollo de historias, como el circuito —también conocido como las frases encadenadas—, a través del que se formará una historia con sentido. Del mismo modo, hay muchísimos ejercicios grupales de escritura creativa: la redacción de textos en grupo tras elegir un número determinado de palabras o el collage, pero también ejercicios que puede empezar a practicar tu hijo o hija individualmente." />
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

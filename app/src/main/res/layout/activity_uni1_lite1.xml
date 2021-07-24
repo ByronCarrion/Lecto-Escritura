@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context=".Unidad.Unidad1.Uni1Lite1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="DE LA ORALIDAD A LA ESCRITURA"
+        android:textColor="@color/BackGroundScreen"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="22sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginVertical="12dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Actividades a desarrollar"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:textColor="#036D45"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+
+
+
+            <!-- EJERCICIO 1 -->
+
+
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="@color/BackGroundScreen"
+                android:layout_marginVertical="5dp"
+                android:text="1) Elegir la opción correcta."/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0A0A0A"
+                android:text="La oralidad es:"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/rdnUni01L01Eje01_op1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#0A0A0A"
+                    android:textSize="14sp"
+                    android:text="La expresión de la palabra hablada." />
+
+                <RadioButton
+                    android:id="@+id/rdnUni01L01Eje01_op2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#0A0A0A"
+                    android:textSize="14sp"
+                    android:text="La expresión de fases históricas." />
+
+                <RadioButton
+                    android:id="@+id/rdnUni01L01Eje01_op3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#0A0A0A"
+                    android:textSize="14sp"
+                    android:text="La transmisión escrita de palabras." />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/btnVeriUni01Lite01_Eje01"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@color/BackGroundScreen"
+                android:onClick="Uni01Lite01Eje01"
+                android:text="Verificar Respuesta"
+                android:textColor="@color/white"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/txtUni01Lite01_Eje01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#1C5CF7"
+                android:textColor="#1C5CF7"
+                android:text=""
+                android:textAlignment="center"/>
+
+
+
+
+            <!-- EJERCICIO 2 -->
+
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="@color/BackGroundScreen"
+                android:layout_marginVertical="5dp"
+                android:text="2) Marque Verdadero si el texto es correcto o de lo contrario marque Falso."/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0A0A0A"
+                android:text="Mediante la expresión oral se produce un intercambio de vivencias, historias y relatos entre diferentes personas."/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_marginVertical="7dp"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/rdnUni01L01Eje02_op1"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/boton_verfa_amarillo"
+                    android:button="@android:color/transparent"
+                    android:text="Verdadero"
+                    android:textSize="14sp"
+                    android:textAlignment="center"
+                    android:textColor="@drawable/boton_verfa_letras" />
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <RadioButton
+                    android:id="@+id/rdnUni01L01Eje02_op2"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/boton_verfa_amarillo"
+                    android:button="@android:color/transparent"
+                    android:text="Falso"
+                    android:textSize="14sp"
+                    android:textAlignment="center"
+                    android:textColor="@drawable/boton_verfa_letras" />
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/btnVeriUni01Lite01_Eje02"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@color/BackGroundScreen"
+                android:onClick="Uni01Lite01Eje02"
+                android:text="Verificar Respuesta"
+                android:textColor="@color/white"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/txtUni01Lite01_Eje02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#1C5CF7"
+                android:textColor="#1C5CF7"
+                android:text=""
+                android:textAlignment="center"/>
+
+
+
+
+
+            <!-- EJERCICIO 3 -->
+
+
+
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="@color/BackGroundScreen"
+                android:layout_marginVertical="5dp"
+                android:text="3) Elija y escriba una opción."/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#750450"
+                android:text="Opciones:   dividen   |   supervisan   |   complementan"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="La expresión oral:"
+                android:textColor="#090808"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:focusable="false"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#090808"
+                    android:text="Puede ir acompañada de varios aspectos que la"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/txtUni01Lite01_Ingreso01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="escriba"
+                    android:inputType="textPersonName"
+                    android:maxLength="13"
+                    android:textColorHint="#1C5CF7"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="."
+                    android:textColor="#090808"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnVeriUni01Lite01_Eje03"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@color/BackGroundScreen"
+                android:onClick="Uni01Lite01Eje03"
+                android:text="Verificar Respuesta"
+                android:textColor="@color/white"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/txtUni01Lite01_Eje03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#1C5CF7"
+                android:textColor="#1C5CF7"
+                android:text=""
+                android:textAlignment="center"/>
+
+            <!-- EJERCICIO 3 -->
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="@color/BackGroundScreen"
+                android:layout_marginVertical="5dp"
+                android:text="4) Selecciones dos características de la escritura:"/>
+
+            <CheckBox
+                android:id="@+id/cbxUni01L01Eje04_op1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Se expresa mediante signos." />
+
+            <CheckBox
+                android:id="@+id/cbxUni01L01Eje04_op2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hay presencialidad e interacción." />
+
+            <CheckBox
+                android:id="@+id/cbxUni01L01Eje04_op3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No hay presencialidad y la interacción está mediada por el texto." />
+
+            <Button
+                android:id="@+id/btnVeriUni01Lite01_Eje04"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@color/BackGroundScreen"
+                android:onClick="Uni01Lite01Eje04"
+                android:text="Verificar Respuesta"
+                android:textColor="@color/white"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/txtUni01Lite01_Eje04"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#1C5CF7"
+                android:textColor="#1C5CF7"
+                android:text=""
+                android:textAlignment="center"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

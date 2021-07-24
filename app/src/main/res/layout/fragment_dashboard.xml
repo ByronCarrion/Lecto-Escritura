@@ -6,17 +6,102 @@
     android:layout_height="match_parent"
     tools:context=".ui.login.ui.dashboard.DashboardFragment">
 
+
     <TextView
         android:id="@+id/text_dashboard"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
+        android:layout_width="362dp"
+        android:layout_height="31dp"
         android:textAlignment="center"
         android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="411dp"
+        android:layout_height="624dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_dashboard">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="match_parent"
+                android:textSize="20dp"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/fondo2"
+                android:text="De lo oral a la lectura"
+                android:textAllCaps="false"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="match_parent"
+                android:textSize="20dp"
+                android:textAllCaps="false"
+                android:background="@drawable/fondo2"
+                android:textColor="@color/white"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:text="El Informe" />
+
+            <Button
+                android:id="@+id/btn3"
+                android:textAllCaps="false"
+                android:layout_width="match_parent"
+                android:textSize="20dp"
+                android:background="@drawable/fondo2"
+                android:textColor="@color/white"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:text="La oracion" />
+
+            <Button
+                android:id="@+id/btn1"
+                android:textAllCaps="false"
+                android:background="@drawable/fondo2"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:textSize="20dp"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:text="Escritura" />
+
+            <Button
+                android:id="@+id/btn4"
+                android:textAllCaps="false"
+                android:background="@drawable/fondo2"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:textSize="20dp"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+
+                android:text="Leer para comunicar" />
+
+            <Button
+                android:id="@+id/btn6"
+                android:textAllCaps="false"
+                android:background="@drawable/fondo2"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:layout_height="60dp"
+                android:text="El Cuento" />
+
+        </LinearLayout>
+    </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

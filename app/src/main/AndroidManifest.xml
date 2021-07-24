@@ -9,11 +9,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/SplashScreenTheme">
+        <activity android:name=".ui.login.ui.Register"></activity>
+        <activity android:name=".lectura.lectura6" />
+        <activity android:name=".lectura.lectura5" />
+        <activity android:name=".lectura.lectura4" />
+        <activity android:name=".lectura.lectura3" />
+        <activity android:name=".lectura.lectura2" />
+        <activity android:name=".lectura.lectura1" />
         <activity
-            android:theme="@style/AppTheme"
             android:name=".ui.login.MenuActivity"
-            android:label="@string/title_activity_menu"></activity>
-        <activity android:name=".ui.login.Login"></activity>
+            android:label="@string/title_activity_menu"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".ui.login.Login" /> <!-- .............UNIDAD UNIDAD 1.............. -->
+        <activity android:name=".Unidad.Unidad1.Uni1Lite6" />
+        <activity android:name=".Unidad.Unidad1.Uni1Lite5" />
+        <activity android:name=".Unidad.Unidad1.Uni1Lite4" />
+        <activity android:name=".Unidad.Unidad1.Uni1Lite3" />
+        <activity android:name=".Unidad.Unidad1.Uni1Lite2" />
+        <activity android:name=".Unidad.Unidad1.Uni1Lite1" />
+        <activity android:name=".Unidad.Unidad3.Uni3Lite2" />
         <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

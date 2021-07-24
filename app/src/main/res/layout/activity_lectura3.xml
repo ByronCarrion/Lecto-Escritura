@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lectura.lectura3">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="267dp"
+        android:layout_height="45dp"
+        android:text="La Escritura"
+        android:textSize="20dp"
+        android:textColor="@color/BackGroundScreen"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView4"
+        android:layout_width="409dp"
+        android:layout_height="684dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="241dp"
+                app:srcCompat="@drawable/escritura" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="La escritura es vital para desarrollar varias aptitudes humanas, como la atención, la concentración, la memoria, la organización y la metodología.  La escritura es el precursor del aprendizaje. Sin el desarrollo psicomotor esencial que se asocia con la escritura, los niños tendrían una menor capacidad de asimilar las asignaturas y el material de estudio.
+
+ANTE TODO, LA ESCRITURA CONTRIBUYE AL DESARROLLO DE LAS FACULTADES COGNITIVAS DEL NIÑO.
+Durante la infancia se forman miles de millones de conexiones sinápticas en el cerebro y la escritura, al igual que el juego y la manipulación de objetos, contribuye a estimular la actividad cerebral y el desarrollo de estas conexiones. " />
+            <TextView
+                android:id="@+id/space"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="La escritura ayuda a la coordinación de los movimientos musculares y fomenta la destreza, especialmente el control motor fino, es decir, la coordinación de brazos, manos o dedos para la ejecución de movimientos finos o intricados. Algunos expertos han relacionado la habilidad de escribir con la capacidad de abrir cajas o atarse los cordones. Cuando se domina, la escritura se convierte en un proceso automático; los niños pueden concentrarse en su trabajo sin preocuparse sobre cómo se forman las letras." />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LA ESCRITURA MANUAL Y LA LECTURA: DOS HABILIDADES INTERDEPENDIENTES"
+                android:textSize="20dp"
+                android:textColor="@color/BackGroundScreen"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ambas habilidades son inseparables, ya que son el resultado de un proceso mental que implica la codificación y descodificación de la información del cerebro. Si el niño no aprende a escribir correctamente, puede tener dificultades en la lectura: en la comprensión de un texto completo y el contexto de las palabras y las frases, y en la identificación de la ortografía de las palabras. Además, los problemas con la escritura y la falta del control automático, pueden provocar retrasos en el aprendizaje y afectar a su capacidad de tomar notas, lo que derivaría en problemas de concentración." />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
