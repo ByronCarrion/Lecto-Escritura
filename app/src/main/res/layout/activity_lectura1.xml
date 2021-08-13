@@ -6,14 +6,14 @@
     android:layout_height="match_parent"
     tools:context=".lectura.lectura1">
 
-    <TextView
+    ¿<TextView
         android:id="@+id/textView2"
         android:layout_width="267dp"
         android:layout_height="45dp"
         android:text="De Oral A Lectura"
-        android:textSize="20dp"
-        android:textColor="@color/BackGroundScreen"
         android:textAlignment="center"
+        android:textColor="@color/BackGroundScreen"
+        android:textSize="20dp"
         app:layout_constraintBottom_toTopOf="@+id/scrollView4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -33,12 +33,13 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <ImageView
+                android:textAlignment="center"
                 android:id="@+id/imageView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="357dp"
+                android:layout_height="226dp"
                 app:srcCompat="@drawable/ora1" />
 
             <TextView
@@ -67,18 +68,18 @@ La adquisición correcta del lenguaje requiere en el niño/a el desarrollo de ha
 
             <ImageView
                 android:id="@+id/imageView2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="382dp"
+                android:layout_height="294dp"
                 app:srcCompat="@drawable/ora2" />
 
             <TextView
                 android:id="@+id/textView6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="La escritura creativa"
-                android:textSize="20dp"
+                android:text="La Escritura Creativa"
+                android:textAlignment="center"
                 android:textColor="@color/BackGroundScreen"
-                android:textAlignment="center"/>
+                android:textSize="20dp" />
 
             <TextView
                 android:id="@+id/textView7"
@@ -90,9 +91,159 @@ La adquisición correcta del lenguaje requiere en el niño/a el desarrollo de ha
                 android:id="@+id/textView8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text=". Podemos hacerlo en casa o, si existe un interés visible por su parte, estudiar otras opciones fuera de la escuela. Su práctica mejorará los tiempos de aprendizaje de conceptos, su vocabulario y el conocimiento estructural del idioma. Por regla general, el gusto por la lectura irá asociado a todo lo anterior, convirtiéndose en el acercamiento progresivo de géneros literarios, temas y autores. Esta asociación también la podemos extender a la educación en valores, mostrando situaciones y realidades que nuestros hijos e hijas deben conocer y sacando partido a algunos de los ejercicios y actividades de escritura creativa para niños que encontrarás a continuación.
+                android:text=". Podemos hacerlo en casa o, si existe un interés visible por su parte, estudiar otras opciones fuera de la escuela. Su práctica mejorará los tiempos de aprendizaje de conceptos, su vocabulario y el conocimiento estructural del idioma. Por regla general, el gusto por la lectura irá asociado a todo lo anterior, convirtiéndose en el acercamiento progresivo de géneros literarios, temas y autores. Esta asociación también la podemos extender a la educación en valores, mostrando situaciones y realidades que nuestros hijos e hijas deben conocer y sacando partido a algunos de los ejercicios y actividades de escritura creativa para niños que encontrarás a continuación." />
 
-En un grupo o taller donde se practique la escritura creativa con niños, quienes lo organizan plantearán una enorme variedad de ejercicios de desarrollo de historias, como el circuito —también conocido como las frases encadenadas—, a través del que se formará una historia con sentido. Del mismo modo, hay muchísimos ejercicios grupales de escritura creativa: la redacción de textos en grupo tras elegir un número determinado de palabras o el collage, pero también ejercicios que puede empezar a practicar tu hijo o hija individualmente." />
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="En un grupo o taller donde se practique la escritura creativa con niños, quienes lo organizan plantearán una enorme variedad de ejercicios de desarrollo de historias, como el circuito —también conocido como las frases encadenadas—, a través del que se formará una historia con sentido. Del mismo modo, hay muchísimos ejercicios grupales de escritura creativa: la redacción de textos en grupo tras elegir un número determinado de palabras o el collage, pero también ejercicios que puede empezar a practicar tu hijo o hija individualmente." />
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ventajas de la lectura oral"
+                android:textAlignment="center"
+                android:textColor="@color/BackGroundScreen"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView63"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Existen diferentes tipos de lecturas, todos ellos tienen sus ventajas y desventajas. En la lectura oral, las ventajas son las siguientes:" />
+
+            <TextView
+                android:id="@+id/textView62"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView61"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Se ejercitan 2 sentidos del cuerpo humano: la vista y el oído." />
+
+            <TextView
+                android:id="@+id/textView60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Se ejercita el habla." />
+
+            <TextView
+                android:id="@+id/textView57"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="La comprensión del texto se hace más sencilla." />
+
+            <TextView
+                android:id="@+id/textView65"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView66"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView67"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Se transmitir la información expuesta en el texto a otros, de forma oral." />
+
+            <TextView
+                android:id="@+id/textView68"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView69"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Se puede disfrutar junto a otros una lectura que nos guste." />
+
+            <TextView
+                android:id="@+id/textView70"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="@color/BackGroundScreen"
+                android:textSize="20dp"
+                android:text="Factores de la lectura oral" />
+
+            <TextView
+                android:id="@+id/textView71"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView72"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Leer en voz alta es un placer para muchos, pero un tormento para otros. Tener que hablar en público no es fácil, y esto se complica mas si no se sabe manejar las técnicas de lectura adecuada." />
+
+            <TextView
+                android:id="@+id/textView73"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView74"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hay varios factores que se deben tener en cuenta para practicar una correcta lectura oral. Hemos visto que el tono de voz es uno de ellos. Otros son la dicción y pronunciación, la respiración y la intensidad de voz." />
+
+            <TextView
+                android:id="@+id/textView75"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView76"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="La lectura en voz alta no solo se utiliza para compartir un cuento o historia con otros, ya en este tipo de texto se necesita llevar a cabo diferentes técnicas según el momento lo requiera para hacer el texto más agradable." />
+
+
         </LinearLayout>
     </ScrollView>
 

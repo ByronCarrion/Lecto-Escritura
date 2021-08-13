@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/unidad_fondo"
+    android:background="@color/background"
     android:orientation="vertical"
     tools:context=".Unidad.Unidad3.Uni3Lite2">>
 
@@ -51,7 +51,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="14sp"
-                android:textColor="#E60F09"
+                android:textColor="@color/BackGroundScreen"
                 android:layout_marginVertical="5dp"
                 android:text="1) Elegir la opción correcta."/>
 
@@ -97,10 +97,10 @@
                 android:layout_height="30dp"
                 android:layout_gravity="center"
                 android:layout_marginVertical="5dp"
-                android:background="@drawable/boton_color_morado"
                 android:onClick="Uni03Lite02Eje01"
                 android:text="Verificar Respuesta"
-                android:textColor="@drawable/boton_menuprin_letras"
+                android:background="@color/BackGroundScreen"
+                android:textColor="@color/white"
                 android:textSize="8dp" />
 
             <TextView
@@ -124,7 +124,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="14sp"
-                android:textColor="#E60F09"
+                android:textColor="@color/BackGroundScreen"
                 android:layout_marginVertical="5dp"
                 android:text="2) Elija y escriba una opción."/>
 
@@ -181,10 +181,10 @@
                 android:layout_height="30dp"
                 android:layout_gravity="center"
                 android:layout_marginVertical="5dp"
-                android:background="@drawable/boton_color_morado"
                 android:onClick="Uni03Lite02Eje02"
                 android:text="Verificar Respuesta"
-                android:textColor="@drawable/boton_menuprin_letras"
+                android:background="@color/BackGroundScreen"
+                android:textColor="@color/white"
                 android:textSize="8dp" />
 
             <TextView
@@ -210,7 +210,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="14sp"
-                android:textColor="#E60F09"
+                android:textColor="@color/BackGroundScreen"
                 android:layout_marginVertical="5dp"
                 android:text="3) Selecciones dos recursos narrativos para escribir un cuento:"/>
 
@@ -238,10 +238,10 @@
                 android:layout_height="30dp"
                 android:layout_gravity="center"
                 android:layout_marginVertical="5dp"
-                android:background="@drawable/boton_color_morado"
                 android:onClick="Uni03Lite02Eje03"
                 android:text="Verificar Respuesta"
-                android:textColor="@drawable/boton_menuprin_letras"
+                android:background="@color/BackGroundScreen"
+                android:textColor="@color/white"
                 android:textSize="8dp" />
 
             <TextView
@@ -265,7 +265,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="14sp"
-                android:textColor="#E60F09"
+                android:textColor="@color/BackGroundScreen"
                 android:layout_marginVertical="5dp"
                 android:text="4) “La coneja presumida”, leer y responder las preguntas."/>
 
@@ -354,7 +354,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="14sp"
-                android:textColor="#E60F09"
+                android:textColor="@color/BackGroundScreen"
                 android:layout_marginVertical="5dp"
                 android:text="a) Elija y escriba una opción, ¿Quién se estaba ahogando?"/>
 
@@ -405,10 +405,10 @@
                 android:layout_height="30dp"
                 android:layout_gravity="center"
                 android:layout_marginVertical="5dp"
-                android:background="@drawable/boton_color_morado"
+                android:background="@color/BackGroundScreen"
                 android:onClick="Uni03Lite02Eje04a"
                 android:text="Verificar Respuesta"
-                android:textColor="@drawable/boton_menuprin_letras"
+                android:textColor="@color/white"
                 android:textSize="8dp" />
 
             <TextView
@@ -424,7 +424,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="14sp"
-                android:textColor="#E60F09"
+                android:textColor="@color/BackGroundScreen"
                 android:layout_marginVertical="5dp"
                 android:text="b) Elija y escriba una opción, ¿Quién vio que se cayó la mariposa?"/>
 
@@ -475,10 +475,10 @@
                 android:layout_height="30dp"
                 android:layout_gravity="center"
                 android:layout_marginVertical="5dp"
-                android:background="@drawable/boton_color_morado"
+                android:background="@color/BackGroundScreen"
                 android:onClick="Uni03Lite02Eje04b"
                 android:text="Verificar Respuesta"
-                android:textColor="@drawable/boton_menuprin_letras"
+                android:textColor="@color/white"
                 android:textSize="8dp" />
 
             <TextView

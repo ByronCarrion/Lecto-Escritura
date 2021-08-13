@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/unidad_fondo"
+    android:background="@color/background"
     android:orientation="vertical"
     tools:context=".Unidad.Unidad1.Uni1Lite4">
 
@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="LA ORACIÓN"
-        android:textColor="#6D6619"
+        android:textColor="@color/BackGroundScreen"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textSize="22sp" />
 
@@ -36,7 +36,7 @@
                 android:text="Actividades a desarrollar"
                 android:gravity="center"
                 android:textSize="14sp"
-                android:textColor="#036D45"
+                android:textColor="@color/BackGroundScreen"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
 
 
@@ -51,7 +51,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="14sp"
-                android:textColor="#E60F09"
+                android:textColor="@color/BackGroundScreen"
                 android:layout_marginVertical="5dp"
                 android:text="1) Elegir la opción correcta."/>
 
@@ -97,10 +97,10 @@
                 android:layout_height="30dp"
                 android:layout_gravity="center"
                 android:layout_marginVertical="5dp"
-                android:background="@drawable/boton_color_naranja"
+                android:background="@color/BackGroundScreen"
+                android:textColor="@color/white"
                 android:onClick="Uni01Lite04Eje01"
                 android:text="Verificar Respuesta"
-                android:textColor="@drawable/boton_menuprin_letras"
                 android:textSize="8dp" />
 
             <TextView
@@ -126,7 +126,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="14sp"
-                android:textColor="#E60F09"
+                android:textColor="@color/BackGroundScreen"
                 android:layout_marginVertical="5dp"
                 android:text="2) Elija y escriba una opción."/>
 
@@ -176,10 +176,10 @@
                 android:layout_height="30dp"
                 android:layout_gravity="center"
                 android:layout_marginVertical="5dp"
-                android:background="@drawable/boton_color_naranja"
                 android:onClick="Uni01Lite04Eje02"
                 android:text="Verificar Respuesta"
-                android:textColor="@drawable/boton_menuprin_letras"
+                android:background="@color/BackGroundScreen"
+                android:textColor="@color/white"
                 android:textSize="8dp" />
 
             <TextView
@@ -202,7 +202,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="14sp"
-                android:textColor="#E60F09"
+                android:textColor="@color/BackGroundScreen"
                 android:layout_marginVertical="5dp"
                 android:text="3) Marque Verdadero si el texto es correcto o de lo contrario marque Falso."/>
 
@@ -255,10 +255,10 @@
                 android:layout_height="30dp"
                 android:layout_gravity="center"
                 android:layout_marginVertical="5dp"
-                android:background="@drawable/boton_color_naranja"
                 android:onClick="Uni01Lite04Eje03"
                 android:text="Verificar Respuesta"
-                android:textColor="@drawable/boton_menuprin_letras"
+                android:background="@color/BackGroundScreen"
+                android:textColor="@color/white"
                 android:textSize="8dp" />
 
             <TextView
@@ -284,7 +284,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="14sp"
-                android:textColor="#E60F09"
+                android:textColor="@color/BackGroundScreen"
                 android:layout_marginVertical="5dp"
                 android:text="4) “Las ranitas”, leer y responder las preguntas."/>
 
@@ -341,7 +341,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="14sp"
-                android:textColor="#E60F09"
+                android:textColor="@color/BackGroundScreen"
                 android:layout_marginVertical="5dp"
                 android:text="a) Elija y escriba una opción. ¿Quiénes vivían en un lago?"/>
 
@@ -393,10 +393,10 @@
                 android:layout_height="30dp"
                 android:layout_gravity="center"
                 android:layout_marginVertical="5dp"
-                android:background="@drawable/boton_color_naranja"
                 android:onClick="Uni01Lite04Eje04a"
                 android:text="Verificar Respuesta"
-                android:textColor="@drawable/boton_menuprin_letras"
+                android:background="@color/BackGroundScreen"
+                android:textColor="@color/white"
                 android:textSize="8dp" />
 
             <TextView
@@ -412,7 +412,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="14sp"
-                android:textColor="#E60F09"
+                android:textColor="@color/BackGroundScreen"
                 android:layout_marginVertical="5dp"
                 android:text="b) Elija y escriba una opción, ¿Qué creían que eran las ranas al ver el tronco?"/>
 
@@ -463,10 +463,10 @@
                 android:layout_height="30dp"
                 android:layout_gravity="center"
                 android:layout_marginVertical="5dp"
-                android:background="@drawable/boton_color_naranja"
                 android:onClick="Uni01Lite04Eje04b"
                 android:text="Verificar Respuesta"
-                android:textColor="@drawable/boton_menuprin_letras"
+                android:background="@color/BackGroundScreen"
+                android:textColor="@color/white"
                 android:textSize="8dp" />
 
             <TextView

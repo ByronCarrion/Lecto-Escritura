@@ -5,6 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".lectura.lectura2">
+
+
     <TextView
         android:id="@+id/textView2"
         android:layout_width="267dp"
@@ -74,17 +76,138 @@ Y el informe escolar realizado por el personal docente o administrativo de una e
                 android:textAlignment="center"/>
 
             <TextView
+                android:id="@+id/textView97"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+            <TextView
                 android:id="@+id/textView5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="
-Sus partes son extensas y explícitas.
+                android:text="Sus partes son extensas y explícitas." />
 
-Encabezamiento, consta de lugar y fecha, los siguientes términos, uno debajo de otro: “del”, “al”, “asunto” y “FECHA”.
-Texto o cuerpo del informe, es la parte expositiva y amplia en la que se explica detalladamente el asunto que lo motiva. Se divide en párrafos.
-Terminación o conclusión, se acostumbra terminar este documento con la expresión: “Es todo cuanto tengo que informar a Ud., señor (Gerente, Director, Presidente, etc.).
-Despedida, del que eleva el informe, indicando el cargo que ocupa y con el sello, si lo hay." />
+            <TextView
+                android:id="@+id/textView77"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
 
+            <TextView
+                android:id="@+id/textView78"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Encabezamiento, consta de lugar y fecha, los siguientes términos, uno debajo de otro: “del”, “al”, “asunto” y “FECHA”." />
+
+            <TextView
+                android:id="@+id/textView79"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView80"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Texto o cuerpo del informe, es la parte expositiva y amplia en la que se explica detalladamente el asunto que lo motiva. Se divide en párrafos." />
+
+            <TextView
+                android:id="@+id/textView81"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView82"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Terminación o conclusión, se acostumbra terminar este documento con la expresión: “Es todo cuanto tengo que informar a Ud., señor (Gerente, Director, Presidente, etc.)." />
+
+            <TextView
+                android:id="@+id/textView83"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView84"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Despedida, del que eleva el informe, indicando el cargo que ocupa y con el sello, si lo hay." />
+
+            <TextView
+                android:id="@+id/textView85"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView86"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="@color/BackGroundScreen"
+                android:textAlignment="center"
+                android:text="Características de un informe" />
+
+            <TextView
+                android:id="@+id/textView87"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView88"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Claro Se usa un lenguaje simple y directo para que sea comprendido por toda la audiencia a la que se dirige" />
+            <TextView
+                android:id="@+id/textView96"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView89"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Objetivo: Se basa en hechos e información comprobable y no incluye las opiniones o punto de vista del redactor." />
+
+            <TextView
+                android:id="@+id/textView90"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView91"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Estructurado: Responde a ciertos criterios y se expone siguiendo una estructura narrativa de: introducción, desarrollo y conclusión." />
+
+            <TextView
+                android:id="@+id/textView95"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+
+            <TextView
+                android:id="@+id/textView92"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Periódico: Suele publicarse según una determinada cantidad de tiempo." />
+
+            <TextView
+                android:id="@+id/textView93"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView94"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Específico:  Tiene un objetivo determinado y apunta a una temática o cuestión a resolver o analizar dentro de un campo de estudio." />
 
 
         </LinearLayout>

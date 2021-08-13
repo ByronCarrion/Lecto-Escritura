@@ -12,15 +12,14 @@ import android.text.TextWatcher
 import android.view.Menu
 import android.view.View
 import android.view.inputmethod.EditorInfo
-import android.widget.Button
-import android.widget.EditText
-import android.widget.ProgressBar
-import android.widget.Toast
+import android.widget.*
 import edu.lectoescritura.MainActivity
 
 import edu.lectoescritura.R
 import edu.lectoescritura.SplashScreen
+import edu.lectoescritura.Unidad.Unidad1.Uni1Lite3
 import edu.lectoescritura.databinding.ActivityMenuBinding
+import edu.lectoescritura.ui.login.ui.Register
 
 class Login : AppCompatActivity() {
 
@@ -35,6 +34,18 @@ class Login : AppCompatActivity() {
         val password = findViewById<EditText>(R.id.password)
         val login = findViewById<Button>(R.id.login)
         val loading = findViewById<ProgressBar>(R.id.loading)
+        val textomitir = findViewById<TextView>(R.id.text)
+        val buttonrregister = findViewById<Button>(R.id.Register)
+
+        buttonrregister.setOnClickListener(View.OnClickListener {
+            val intent = Intent(this,Register::class.java)
+            startActivity(intent)
+        })
+        textomitir.setOnClickListener(View.OnClickListener {
+
+            val intent = Intent(this, MenuActivity::class.java)
+            startActivity(intent)
+        })
 
         loginViewModel = ViewModelProvider(this, LoginViewModelFactory())
                 .get(LoginViewModel::class.java)
@@ -52,7 +63,7 @@ class Login : AppCompatActivity() {
             }
             if (loginResult.success != null) {
 
-                startActivity(Intent(this, MenuActivity::class.java))
+               startActivity(Intent(this, MenuActivity::class.java))
             }
             setResult(Activity.RESULT_OK)
 

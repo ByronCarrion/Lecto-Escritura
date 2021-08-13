@@ -55,6 +55,22 @@ class DiccionarioFragment : Fragment() {
         val h: ImageView = binding.h
         val i: ImageView = binding.i
         val j: ImageView = binding.j
+        val k: ImageView = binding.k
+        val l: ImageView = binding.l
+        val m: ImageView = binding.m
+        val n: ImageView = binding.n
+        val o: ImageView = binding.o
+        val p: ImageView = binding.p
+        val q: ImageView = binding.q
+        val r: ImageView = binding.r
+        val s: ImageView = binding.s
+        val t: ImageView = binding.t
+        val u: ImageView = binding.u
+        val v: ImageView = binding.v
+        val w: ImageView = binding.w
+        val x: ImageView = binding.x
+        val y: ImageView = binding.y
+        val z: ImageView = binding.z
 
 
         Glide.with(activity).load(R.drawable.a).into(a)
@@ -67,7 +83,22 @@ class DiccionarioFragment : Fragment() {
         Glide.with(activity).load(R.drawable.h).into(h)
         Glide.with(activity).load(R.drawable.i).into(i)
         Glide.with(activity).load(R.drawable.j).into(j)
-
+        Glide.with(activity).load(R.drawable.k).into(k)
+        Glide.with(activity).load(R.drawable.l).into(l)
+        Glide.with(activity).load(R.drawable.m).into(m)
+        Glide.with(activity).load(R.drawable.n).into(n)
+        Glide.with(activity).load(R.drawable.o).into(o)
+        Glide.with(activity).load(R.drawable.p).into(p)
+        Glide.with(activity).load(R.drawable.q).into(q)
+        Glide.with(activity).load(R.drawable.r).into(r)
+        Glide.with(activity).load(R.drawable.s).into(s)
+        Glide.with(activity).load(R.drawable.t).into(t)
+        Glide.with(activity).load(R.drawable.u).into(u)
+        Glide.with(activity).load(R.drawable.v).into(v)
+        Glide.with(activity).load(R.drawable.w).into(w)
+        Glide.with(activity).load(R.drawable.x).into(x)
+        Glide.with(activity).load(R.drawable.y).into(y)
+        Glide.with(activity).load(R.drawable.z).into(z)
 
 
 

@@ -343,7 +343,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="14sp"
-                android:textColor="#E60F09"
+                android:textColor="@color/BackGroundScreen"
                 android:layout_marginVertical="5dp"
                 android:text="a) Elija y escriba una opción, ¿Para qué quería comprar un vestido la hija del lechero?"/>
 
@@ -393,10 +393,10 @@
                 android:layout_height="30dp"
                 android:layout_gravity="center"
                 android:layout_marginVertical="5dp"
-                android:background="@drawable/boton_color_verde"
+                android:background="@color/BackGroundScreen"
+                android:textColor="@color/white"
                 android:onClick="Uni01Lite03Eje04a"
                 android:text="Verificar Respuesta"
-                android:textColor="@drawable/boton_menuprin_letras"
                 android:textSize="8dp" />
 
             <TextView
@@ -412,7 +412,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="14sp"
-                android:textColor="#E60F09"
+                android:textColor="@color/BackGroundScreen"
                 android:layout_marginVertical="5dp"
                 android:text="b) Elija y escriba una opción, al tropezarse la niña, ¿Qué se le regó?"/>
 
@@ -463,10 +463,10 @@
                 android:layout_height="30dp"
                 android:layout_gravity="center"
                 android:layout_marginVertical="5dp"
-                android:background="@drawable/boton_color_verde"
                 android:onClick="Uni01Lite03Eje04b"
+                android:background="@color/BackGroundScreen"
+                android:textColor="@color/white"
                 android:text="Verificar Respuesta"
-                android:textColor="@drawable/boton_menuprin_letras"
                 android:textSize="8dp" />
 
             <TextView

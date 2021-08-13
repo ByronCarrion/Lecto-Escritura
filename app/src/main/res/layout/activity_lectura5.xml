@@ -6,4 +6,291 @@
     android:layout_height="match_parent"
     tools:context=".lectura.lectura5">
 
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="210dp"
+        android:layout_height="34dp"
+        android:text="La oración"
+        android:textAlignment="center"
+        android:textColor="@color/BackGroundScreen"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="409dp"
+        android:layout_height="583dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="En gramática y sintaxis, se denomina oración a un conjunto ordenado y lineal de palabras, que expresan en su totalidad una información completa y reconocible. Se trata de la unidad más pequeña del discurso, la cual constituye un enunciado autónomo, es decir, una proposición lógica que incluso si la sacamos de su contexto, continuará expresando una información." />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="La oración es una de las estructuras del lenguaje verbal que más se ha estudiado a lo largo de la historia de la lingüística, desde distintas aproximaciones, tanto morfosintácticas como semánticas y fonológicas, dado que es una estructura común a todos los idiomas. Sin embargo, y como es lógico, la forma y la entonación de las oraciones puede variar significativamente de una lengua a otra." />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:textColor="@color/BackGroundScreen"
+                android:textSize="15dp"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Caracteristicas de la Oración" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Se trata de una estructura lineal, jerarquizada, compuesta por un número finito de palabras." />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Según la gramática tradicional, se compone normalmente de un sujeto (quien realiza o sobre quien recae la acción) y un predicado (la acción realizada y su contexto). Sin embargo, es posible que en algunos casos el sujeto no esté explicitado." />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="En la mayoría de los sistemas de escritura, se la reconoce usualmente por comenzar con una letra mayúscula y culminar con un punto, rasgos que denotan que es una unidad de sentido cerrada en sí misma." />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:textColor="@color/BackGroundScreen"
+                android:textSize="15dp"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Partes de la oración" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sustantivos: Son las palabras empleadas para nombrar el mundo, ya que poseen sustancia (de allí su nombre). Pueden ser propios (o sea, nombres, como “Juan” o “Francia”) o comunes (términos más generales, como “muchacho” o “piedra”)" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Verbos. Palabras que expresan y describen las acciones, y que siempre van conjugados en las oraciones, o sea, van en concordancia de persona y número con el sujeto. Además, expresan un tiempo y un modo en que ocurre la acción, de manera tal que sepamos por su estructura de qué exactamente estamos hablando. Son ejemplos de verbo “hablar”, “caminaría”, “nadaremos”, “asumirá” o “fuese”." />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adjetivos: Palabras que acompañan a los sustantivos y nos indican algunos de sus rasgos de sentido, ampliando o acotando su significado. Pueden ser adjetivos que aportan un sentido específico (calificativos), como “feo” o “azul”; o un sentido de pertenencia (posesivos), como “suyo” o “nuestra”; o que expresen una relación (relacionales), como “internacional” o “político”; o que simplemente aclaren a quién nos referimos (demostrativo), como “ese” o “aquella”, entre otros." />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Artículos. Otro tipo de acompañantes del sustantivo, que también nos aclaran información respecto a él, pero en términos mucho más simples y de importancia gramatical: género, número y determinación. " />
+            <TextView
+                android:id="@+id/textView32"
+                android:textColor="@color/BackGroundScreen"
+                android:textSize="15dp"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="tipos de oracion" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:textColor="@color/BackGroundScreen"
+                android:textSize="15dp"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Oraciones simples. Aquellas que poseen un solo verbo principal que hace de núcleo del predicado. Por ejemplo: “Martín adora el fútbol”" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Oraciones compuestas. Aquellas que integran dos o más oraciones simples en una sola, a través de nexos y partículas que hacen de puente. Dependiendo de cómo se integren las oraciones, podemos hablar de:" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Oraciones coordinadas. En las que las oraciones combinadas son intercambiables y poseen el mismo nivel de importancia. Por ejemplo: “Luis compra y María vende” o “Algunos vienen, pero otros van”." />
+
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Oraciones yuxtapuestas. En las que no existe un nexo haciendo de puente, sino un signo de puntuación que permite la superposición de las oraciones. Por ejemplo: “Ayer me caí, no me lastimé”." />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Oraciones subordinadas. Cuando una de las dos (la subordinante) pose mayor jerarquía e importancia que la otra (la subordinada), y esta última hace las veces de una parte de la oración principal. Por ejemplo: “Mi primo, de quien te hablé ayer, viene a la fiesta”." />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/BackGroundScreen"
+                android:textSize="15dp"
+                android:textAlignment="center"
+                android:text="Sujeto y predicado" />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="El enfoque tradicional de la oración la comprende como la suma de un sujeto, o sea, alguien que lleva a cabo o sobre quien recae la acción expresada por la oración, y un predicado, que es propiamente la acción y sus contextos y circunstancias. Así, toda oración se compone, por compleja que sea, por estas dos estructuras, que la dividen en dos." />
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="El sujeto. Aquella entidad sobre la cual recae la acción o bien que la ejecuta, y que suele hallarse preguntando al verbo “¿quién?” o “¿qué?”. Debe tener un núcleo, esto es, la palabra sobre la cual recae la mayor carga de sentido, y que será un sustantivo o un pronombre que ocupa su lugar. Por ejemplo, en la oración “El pobre Juan siembra porotos en la huerta”, nuestro sujeto será “El pobre Juan” (y el núcleo será “Juan”)" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="El predicado. Una vez hallado el sujeto, el resto de la oración será predicado. Esto es, la acción descrita y todos sus acompañamientos contextuales o gramaticales. Igualmente, el predicado debe tener un núcleo, que en este caso será el verbo principal de la oración. Por ejemplo, en la oración “El pobre Juan siembra porotos en la huerta”, el predicado será “siembra porotos en la huerta” (y el núcleo será “siembra”)." />
+        </LinearLayout>
+    </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

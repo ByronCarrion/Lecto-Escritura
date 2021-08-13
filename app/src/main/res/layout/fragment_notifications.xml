@@ -4,19 +4,87 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/background"
     tools:context=".ui.login.ui.notifications.NotificationsFragment">
 
-    <TextView
-        android:id="@+id/text_notifications"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="156dp"
+        android:layout_height="80dp"
+        android:src="@drawable/logouni"
+        app:layout_constraintBottom_toTopOf="@+id/textView116"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView116"
+        android:layout_width="241dp"
+        android:layout_height="59dp"
+        android:text="UNAN-MANAGUA
+Informatica-Educativa"
+        android:textAlignment="center"
+        android:textColor="@color/BackGroundScreen"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView119"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <TextView
+        android:id="@+id/textView118"
+        android:layout_width="315dp"
+        android:layout_height="40dp"
+        android:text="Byron C. Mejia Carrion"
+        android:textAlignment="center"
+        android:textColor="@color/BackGroundScreen"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView119" />
+
+    <TextView
+        android:id="@+id/textView119"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:text="Cristopher J. Machado Gonzales"
+        android:textAlignment="center"
+        android:textColor="@color/BackGroundScreen"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView118"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView116" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="80dp"
+        android:layout_height="51dp"
+        android:src="@drawable/git"
+        app:layout_constraintBottom_toTopOf="@+id/textView120"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView118" />
+
+    <TextView
+        android:id="@+id/textView120"
+        android:layout_width="344dp"
+        android:layout_height="32dp"
+        android:text="https://github.com/ByronCarrion/Lecto-Escritura"
+        android:textAlignment="center"
+        android:textColor="@color/BackGroundScreen"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

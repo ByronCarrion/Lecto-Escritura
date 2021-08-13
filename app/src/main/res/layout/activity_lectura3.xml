@@ -9,12 +9,12 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="267dp"
-        android:layout_height="45dp"
+        android:layout_width="259dp"
+        android:layout_height="43dp"
         android:text="La Escritura"
-        android:textSize="20dp"
-        android:textColor="@color/BackGroundScreen"
         android:textAlignment="center"
+        android:textColor="@color/BackGroundScreen"
+        android:textSize="20dp"
         app:layout_constraintBottom_toTopOf="@+id/scrollView4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -34,7 +34,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <ImageView
                 android:id="@+id/imageView"
@@ -42,20 +42,43 @@
                 android:layout_height="241dp"
                 app:srcCompat="@drawable/escritura" />
 
+
             <TextView
                 android:id="@+id/textView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="La escritura es vital para desarrollar varias aptitudes humanas, como la atención, la concentración, la memoria, la organización y la metodología.  La escritura es el precursor del aprendizaje. Sin el desarrollo psicomotor esencial que se asocia con la escritura, los niños tendrían una menor capacidad de asimilar las asignaturas y el material de estudio.
+                android:text="La escritura es vital para desarrollar varias aptitudes humanas, como la atención, la concentración, la memoria, la organización y la metodología.  La escritura es el precursor del aprendizaje. Sin el desarrollo psicomotor esencial que se asocia con la escritura, los niños tendrían una menor capacidad de asimilar las asignaturas y el material de estudio. " />
 
-ANTE TODO, LA ESCRITURA CONTRIBUYE AL DESARROLLO DE LAS FACULTADES COGNITIVAS DEL NIÑO.
-Durante la infancia se forman miles de millones de conexiones sinápticas en el cerebro y la escritura, al igual que el juego y la manipulación de objetos, contribuye a estimular la actividad cerebral y el desarrollo de estas conexiones. " />
+            <TextView
+                android:id="@+id/textView125"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView123"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Durante la infancia se forman miles de millones de conexiones sinápticas en el cerebro y la escritura, al igual que el juego y la manipulación de objetos, contribuye a estimular la actividad cerebral y el desarrollo de estas conexiones." />
+
+            <TextView
+                android:id="@+id/textView124"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView122"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/cardview_dark_background"
+                android:text="ANTE TODO, LA ESCRITURA CONTRIBUYE AL DESARROLLO DE LAS FACULTADES COGNITIVAS DEL NIÑO." />
+
             <TextView
                 android:id="@+id/space"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text=""
-                />
+                android:text="" />
 
             <TextView
                 android:id="@+id/textView9"
@@ -68,20 +91,136 @@ Durante la infancia se forman miles de millones de conexiones sinápticas en el 
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="" />
+
             <TextView
                 android:id="@+id/textView6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="LA ESCRITURA MANUAL Y LA LECTURA: DOS HABILIDADES INTERDEPENDIENTES"
-                android:textSize="20dp"
+                android:text="La Escritura Manual y la Escritura: Dos habilidades Interdependientes"
+                android:textAlignment="center"
                 android:textColor="@color/BackGroundScreen"
-                android:textAlignment="center"/>
+                android:textSize="20dp" />
 
             <TextView
                 android:id="@+id/textView5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Ambas habilidades son inseparables, ya que son el resultado de un proceso mental que implica la codificación y descodificación de la información del cerebro. Si el niño no aprende a escribir correctamente, puede tener dificultades en la lectura: en la comprensión de un texto completo y el contexto de las palabras y las frases, y en la identificación de la ortografía de las palabras. Además, los problemas con la escritura y la falta del control automático, pueden provocar retrasos en el aprendizaje y afectar a su capacidad de tomar notas, lo que derivaría en problemas de concentración." />
+
+            <TextView
+                android:id="@+id/textView98"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="@color/BackGroundScreen"
+                android:textSize="20dp"
+                android:text="Importancia de la escritura" />
+
+            <TextView
+                android:id="@+id/textView99"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView100"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="La escritura es una de las más importantes tecnologías desarrolladas por el ser humano, al grado tal que su invención se considera como el punto de inicio formal de la Historia (y, por lo tanto, el final de la prehistoria), dado que antes de ella era imposible dejar documentación que narrara o evidenciara los sucesos." />
+
+            <TextView
+                android:id="@+id/textView101"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView102"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Visto así, la escritura permitió al ser humano superar las barreras del tiempo y de la mortalidad: un mensaje escrito bien puede sobrevivir a su escritor; y también referirse a numerosos receptores a la vez, o en momentos y circunstancias distintas. Es decir, la escritura separó por primera vez en la historia humana al emisor del receptor de un mensaje en tiempo y en espacio." />
+
+            <TextView
+                android:id="@+id/textView103"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView104"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Por otro lado, la escritura permitió acumular saberes y legarlos a las generaciones posteriores, lo cual fue clave en el surgimiento de civilizaciones más complejas y en la posibilidad del estudio y el aprendizaje, ya que antes todo debía transmitirse oralmente y memorizarse, sufriendo distorsiones y olvidos en el proceso." />
+
+            <TextView
+                android:id="@+id/textView105"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView106"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="@color/BackGroundScreen"
+                android:textSize="20dp"
+                android:text="Funciones de la escritura" />
+
+            <TextView
+                android:id="@+id/textView107"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView108"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Función ejecutiva u operativa, que se resume en la capacidad para codificar y decodificar signos gráficos, es decir, en la posibilidad de convertir una idea en un texto y un texto en una serie de ideas: la lecto-escritura. Esta es la función más básica de todas." />
+
+            <TextView
+                android:id="@+id/textView109"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView110"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Función instrumental, que considera la escritura como una herramienta o un instrumento para la adquisición de saberes o conocimientos, como en el caso del estudio. En este sentido, la escritura no es más que un vehículo del conocimiento, un contenedor." />
+
+            <TextView
+                android:id="@+id/textView111"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView112"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Función interpersonal o funcional, aquella que permite la comunicación de dos seres humanos a través del intercambio de mensajes escritos, cosa que hoy en día conocemos muy bien gracias a los servicios de mensajería instantánea. Para ello, se requiere de más que simplemente la capacidad de leer y escribir: se deben manejar los contextos comunicativos, se debe compartir con el receptor una serie de códigos, etc." />
+
+            <TextView
+                android:id="@+id/textView113"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView114"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Función epistémica o imaginativa, la más compleja de todas y la más exigente cognitivamente hablando, es la que permite al escritor crear ideas directamente a través de la escritura, generando conocimientos y opiniones que no estaban dadas de antemano en el receptor y considerando la escritura como sustancia misma, tal y como hacen los escritores, los filósofos o los poetas." />
+
+            <TextView
+                android:id="@+id/textView115"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
 
 
 

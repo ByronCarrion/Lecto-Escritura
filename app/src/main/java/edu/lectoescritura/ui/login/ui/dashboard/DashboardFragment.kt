@@ -44,7 +44,7 @@ class DashboardFragment : Fragment() {
         val button3: Button = binding.btn3
         val button4: Button = binding.btn4
         val button5: Button = binding.btn5
-        val button6: Button = binding.btn6
+
 
 
         button2.setOnClickListener(View.OnClickListener {
@@ -79,13 +79,6 @@ class DashboardFragment : Fragment() {
         button4.setOnClickListener(View.OnClickListener {
 
             val intent = Intent(activity, Uni1Lite6::class.java)
-            startActivity(intent)
-
-
-        })
-        button6.setOnClickListener(View.OnClickListener {
-
-            val intent = Intent(activity, Uni3Lite2::class.java)
             startActivity(intent)
 
 

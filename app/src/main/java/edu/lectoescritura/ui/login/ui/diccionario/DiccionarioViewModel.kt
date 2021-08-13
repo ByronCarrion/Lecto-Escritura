@@ -7,7 +7,7 @@ import androidx.lifecycle.ViewModel
 class DiccionarioViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is Diccionario Fragment"
+        value = "Diccionario Letras / Señas"
     }
     val text: LiveData<String> = _text
 }

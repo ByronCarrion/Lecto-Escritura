@@ -9,10 +9,12 @@
 
     <TextView
         android:id="@+id/text_dashboard"
-        android:layout_width="362dp"
-        android:layout_height="31dp"
+        android:layout_width="381dp"
+        android:layout_height="56dp"
         android:textAlignment="center"
-        android:textSize="20sp"
+        android:padding="10dp"
+        android:textSize="25sp"
+        android:textColor="@color/BackGroundScreen"
         app:layout_constraintBottom_toTopOf="@+id/scrollView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -21,8 +23,8 @@
 
     <ScrollView
         android:id="@+id/scrollView2"
-        android:layout_width="411dp"
-        android:layout_height="624dp"
+        android:layout_width="402dp"
+        android:layout_height="573dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -37,69 +39,61 @@
             <Button
                 android:id="@+id/btn2"
                 android:layout_width="match_parent"
-                android:textSize="20dp"
                 android:layout_height="60dp"
                 android:layout_margin="10dp"
                 android:background="@drawable/fondo2"
                 android:text="De lo oral a la lectura"
+                android:textAlignment="center"
                 android:textAllCaps="false"
-                android:textColor="@color/white" />
+                android:textColor="@color/white"
+                android:textSize="20dp" />
 
             <Button
                 android:id="@+id/btn5"
                 android:layout_width="match_parent"
-                android:textSize="20dp"
-                android:textAllCaps="false"
-                android:background="@drawable/fondo2"
-                android:textColor="@color/white"
                 android:layout_height="60dp"
                 android:layout_margin="10dp"
-                android:text="El Informe" />
+                android:background="@drawable/fondo2"
+                android:text="El Informe"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
 
             <Button
                 android:id="@+id/btn3"
-                android:textAllCaps="false"
                 android:layout_width="match_parent"
-                android:textSize="20dp"
-                android:background="@drawable/fondo2"
-                android:textColor="@color/white"
                 android:layout_height="60dp"
                 android:layout_margin="10dp"
-                android:text="La oracion" />
+                android:background="@drawable/fondo2"
+                android:text="La oracion"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
 
             <Button
                 android:id="@+id/btn1"
-                android:textAllCaps="false"
-                android:background="@drawable/fondo2"
-                android:textColor="@color/white"
                 android:layout_width="match_parent"
-                android:textSize="20dp"
                 android:layout_height="60dp"
                 android:layout_margin="10dp"
-                android:text="Escritura" />
+                android:background="@drawable/fondo2"
+                android:text="Escritura"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
 
             <Button
                 android:id="@+id/btn4"
-                android:textAllCaps="false"
-                android:background="@drawable/fondo2"
-                android:textColor="@color/white"
                 android:layout_width="match_parent"
-                android:textSize="20dp"
                 android:layout_height="60dp"
                 android:layout_margin="10dp"
-
-                android:text="Leer para comunicar" />
-
-            <Button
-                android:id="@+id/btn6"
-                android:textAllCaps="false"
                 android:background="@drawable/fondo2"
+                android:text="Leer para comunicar"
+                android:textAllCaps="false"
                 android:textColor="@color/white"
-                android:layout_width="match_parent"
-                android:textSize="20dp"
-                android:layout_margin="10dp"
-                android:layout_height="60dp"
-                android:text="El Cuento" />
+
+                android:textSize="20dp" />
+
+
 
         </LinearLayout>
     </ScrollView>

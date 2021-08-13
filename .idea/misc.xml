@@ -1,5 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Byron Mejia Carrion/AndroidStudioProjects/LectoEscritura/app/src/main/res/layout/activity_diccionario.xml" value="0.17119565217391305" />
+        <entry key="..\:/Users/Byron Mejia Carrion/AndroidStudioProjects/LectoEscritura/app/src/main/res/layout/activity_lectura1.xml" value="0.28820960698689957" />
+        <entry key="..\:/Users/Byron Mejia Carrion/AndroidStudioProjects/LectoEscritura/app/src/main/res/layout/activity_lectura2.xml" value="0.49368863955119213" />
+        <entry key="..\:/Users/Byron Mejia Carrion/AndroidStudioProjects/LectoEscritura/app/src/main/res/layout/activity_lectura3.xml" value="0.33176248821866167" />
+        <entry key="..\:/Users/Byron Mejia Carrion/AndroidStudioProjects/LectoEscritura/app/src/main/res/layout/activity_lectura4.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Byron Mejia Carrion/AndroidStudioProjects/LectoEscritura/app/src/main/res/layout/activity_lectura5.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Byron Mejia Carrion/AndroidStudioProjects/LectoEscritura/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/Users/Byron Mejia Carrion/AndroidStudioProjects/LectoEscritura/app/src/main/res/layout/activity_register.xml" value="0.33" />
+        <entry key="..\:/Users/Byron Mejia Carrion/AndroidStudioProjects/LectoEscritura/app/src/main/res/layout/activity_splash_screen.xml" value="0.3351449275362319" />
+        <entry key="..\:/Users/Byron Mejia Carrion/AndroidStudioProjects/LectoEscritura/app/src/main/res/layout/activity_uni1_lite1.xml" value="0.16802536231884058" />
+        <entry key="..\:/Users/Byron Mejia Carrion/AndroidStudioProjects/LectoEscritura/app/src/main/res/layout/activity_uni1_lite2.xml" value="0.16802536231884058" />
+        <entry key="..\:/Users/Byron Mejia Carrion/AndroidStudioProjects/LectoEscritura/app/src/main/res/layout/activity_uni1_lite3.xml" value="0.314859437751004" />
+        <entry key="..\:/Users/Byron Mejia Carrion/AndroidStudioProjects/LectoEscritura/app/src/main/res/layout/activity_uni1_lite4.xml" value="0.33" />
+        <entry key="..\:/Users/Byron Mejia Carrion/AndroidStudioProjects/LectoEscritura/app/src/main/res/layout/activity_uni1_lite5.xml" value="0.16802536231884058" />
+        <entry key="..\:/Users/Byron Mejia Carrion/AndroidStudioProjects/LectoEscritura/app/src/main/res/layout/activity_uni1_lite6.xml" value="0.2677595628415301" />
+        <entry key="..\:/Users/Byron Mejia Carrion/AndroidStudioProjects/LectoEscritura/app/src/main/res/layout/activity_uni2_lite1.xml" value="0.16802536231884058" />
+        <entry key="..\:/Users/Byron Mejia Carrion/AndroidStudioProjects/LectoEscritura/app/src/main/res/layout/activity_uni2_lite2.xml" value="0.16802536231884058" />
+        <entry key="..\:/Users/Byron Mejia Carrion/AndroidStudioProjects/LectoEscritura/app/src/main/res/layout/activity_uni2_lite3.xml" value="0.16802536231884058" />
+        <entry key="..\:/Users/Byron Mejia Carrion/AndroidStudioProjects/LectoEscritura/app/src/main/res/layout/activity_uni2_lite4.xml" value="0.16802536231884058" />
+        <entry key="..\:/Users/Byron Mejia Carrion/AndroidStudioProjects/LectoEscritura/app/src/main/res/layout/activity_uni2_lite5.xml" value="0.16802536231884058" />
+        <entry key="..\:/Users/Byron Mejia Carrion/AndroidStudioProjects/LectoEscritura/app/src/main/res/layout/activity_uni3_lite1.xml" value="0.17119565217391305" />
+        <entry key="..\:/Users/Byron Mejia Carrion/AndroidStudioProjects/LectoEscritura/app/src/main/res/layout/activity_uni3_lite2.xml" value="0.33" />
+        <entry key="..\:/Users/Byron Mejia Carrion/AndroidStudioProjects/LectoEscritura/app/src/main/res/layout/fragment_dashboard.xml" value="0.25" />
+        <entry key="..\:/Users/Byron Mejia Carrion/AndroidStudioProjects/LectoEscritura/app/src/main/res/layout/fragment_home.xml" value="0.19384057971014493" />
+        <entry key="..\:/Users/Byron Mejia Carrion/AndroidStudioProjects/LectoEscritura/app/src/main/res/layout/fragment_notifications.xml" value="0.3351449275362319" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>

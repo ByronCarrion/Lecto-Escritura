@@ -13,9 +13,7 @@ import androidx.lifecycle.ViewModelProvider
 import edu.lectoescritura.Unidad.Unidad1.*
 import edu.lectoescritura.Unidad.Unidad3.Uni3Lite2
 import edu.lectoescritura.databinding.FragmentHomeBinding
-import edu.lectoescritura.lectura.lectura1
-import edu.lectoescritura.lectura.lectura2
-import edu.lectoescritura.lectura.lectura3
+import edu.lectoescritura.lectura.*
 
 
 class HomeFragment : Fragment() {
@@ -48,7 +46,7 @@ class HomeFragment : Fragment() {
         val button3: Button = binding.btn3
         val button4: Button = binding.btn4
         val button5: Button = binding.btn5
-        val button6: Button = binding.btn6
+
 
 
         button2.setOnClickListener(View.OnClickListener {
@@ -75,25 +73,19 @@ class HomeFragment : Fragment() {
         })
         button1.setOnClickListener(View.OnClickListener {
 
-            val intent = Intent(activity, Uni1Lite5::class.java)
+            val intent = Intent(activity, lectura4::class.java)
             startActivity(intent)
 
 
         })
         button4.setOnClickListener(View.OnClickListener {
 
-            val intent = Intent(activity, Uni1Lite6::class.java)
+            val intent = Intent(activity, lectura5::class.java)
             startActivity(intent)
 
 
         })
-        button6.setOnClickListener(View.OnClickListener {
 
-            val intent = Intent(activity, Uni3Lite2::class.java)
-            startActivity(intent)
-
-
-        })
         return root
     }
 

@@ -6,4 +6,68 @@
     android:layout_height="match_parent"
     tools:context=".lectura.lectura4">
 
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Leer para Comunicarse"
+        android:textSize="24dp"
+        android:textColor="@color/BackGroundScreen"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView5"
+        android:layout_width="419dp"
+        android:layout_height="576dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/evaluacion2_09"/>
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Los niños sordos, como todos los demás, tienen derecho a aprender a leer y nosotros la obligación de encontrar la manera más eficaz para que lo consigan. Nos preguntamos cómo pueden hacerlo sin haber oído nunca la palabra escrita. Ahora mismo, mientras leemos este texto, es inevitable, si somos oyentes, escuchar en nuestro cerebro el sonido de cada grupo de letras. Pero si no hubiéramos oído nunca estas palabras ¿seríamos capaces de leer?" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=""/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="No solo es posible, sino que además hay excelentes lectores entre las personas sordas." />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=""/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Para leer, al menos de la manera tradicional, necesitamos la vista. Es necesaria, pero no suficiente. Leer es una actividad cerebral que implica transformar símbolos arbitrarios, estas letras negras sobre fondo blanco, en sonidos y significados. No hay regiones cerebrales específicas diseñadas para la lectura. Las que tenemos se activaron y pusieron en marcha durante el aprendizaje y su fluidez se automatiza y acelera con el entrenamiento.
+
+Cuando descodificamos letras, grafemas, parece inevitable convertirlas en sonidos, fonemas. Los garabatos de nuestro lenguaje escrito suenan en nuestra cabeza incluso cuando leemos en silencio. Claro que esto ocurre si antes hemos escuchado ese lenguaje en su modalidad oral. Entonces, ¿cómo aprenden a leer las personas sordas si no han oído antes? G-A-T-O es “gato” porque lo escuchamos una vez mientras nos señalaban al del vecino, pero una persona sorda pudo ver al felino pero no escuchar cómo se denomina." />
+        </LinearLayout>
+
+    </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
